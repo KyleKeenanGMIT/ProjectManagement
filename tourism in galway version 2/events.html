@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>Events Section</title> <!--Events title.-->
+
+    <style> /* start of style tag*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* font import*/
+
+*
+{font-family: 'Bebas Neue', cursive; /* set font for whole page*/
+
+  
+    }
+        body{
+            margin: 0; /* margin and padding for whole page*/
+            padding: 0;
+        }
+
+        section{
+            width: 100%;
+            height: 100vh;
+            background: url(claddagh-galway-23927267.jpg);
+            background-size: cover; /* section includes background*/
+
+        }
+        
+        section .leftbox{
+            width: 50%;
+            height: 100%; /* css for the left hand side box with details about events */
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+
+
+        }
+        
+        section .leftbox .content{
+color: #fff;
+background: rgba(0,0,0,.5); /* content css for left hand box*/
+padding: 40px;
+transition: .3s;
+
+
+
+        }
+
+
+        section .leftbox .content:hover{
+background: blue; /* changes left box to blue when hovered on*/
+
+
+        }
+
+
+        section .leftbox .content h1{
+            margin: 0;
+            padding: 0; /*content for text with the h1 tag */
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+
+
+        section .leftbox .content p{
+         margin: 10px 0 0;
+         padding: 0; /* css for p tag in left box */
+
+
+
+        }
+
+
+        section .events{
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0,0,0,.5);
+            float: right;
+            box-sizing: border-box; /* events css */
+
+
+        }
+
+        section .events ul{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box; /* unordered list css */
+
+
+        }
+
+        section .events ul li{
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box; /* list css*/
+            height: 200px;
+            
+
+        }
+
+        section .events ul li .time{
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%; /*  css for time spot in events tag*/
+            float: left;
+            text-align: center;
+            transition: 0.3s;
+
+        }
+
+        section .events ul li:hover .time{
+            background-color: blue;
+ /* changes to color blue when hovered on for the time slot*/
+        }
+
+
+        section .events ul li .time h2{
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%; /* css for the h2 tag in events boxes */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 30px;
+        }
+
+        section .events ul li .time h2 span{
+            font-size: 20px; /*changes font size for span tag */
+        }
+
+        section .events ul li .details{
+            padding: 20px;
+            background: #fff; 
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%; /*css for details */
+            float: left;
+
+        }
+
+
+        section .events ul li .details h3{
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0; /*css for h3 tag */
+            font-size: 22px;
+
+        }
+        section .events ul li .details p{
+            position: relative;
+            margin: 10px 0 0; /*css for p tag */
+            padding: 0;
+            font-size: 16px;
+
+        }
+        section .events ul li .details a{
+           display: inline-block;
+           text-decoration: none; /*css for a tag */
+           
+          padding: 0 5px;
+           border: 2px solid #262626;
+           margin-top: -2px;
+           font-size: 18px;
+           transition: 0.3s;
+          
+        }
+
+        section .events ul li .details a:hover{
+            background: blue;
+            color: #fff; /* css for a hover tag*/
+            border-color: #262626;
+        }
+
+
+     
+
+.logo{
+   color: gray;
+   font-size: 34px; /* css for explore galway logo*/
+   font-weight: 650;
+   letter-spacing: 2px;
+   text-decoration: none;
+   
+}
+
+header{
+    text-decoration: none; /*css for header */
+}
+
+
+.logo span{
+    color: blue; /*css for logo span */
+    text-decoration: none;
+}
+
+
+
+.logo span:hover{
+    color: gray; /*changes to gray when hovered over */
+}
+
+
+.loginbtn{
+   text-transform: capitalize;
+   text-decoration: none;
+   background-color: blue;
+   padding: 15px 40px; /* login button css*/
+   font-size: 14px;
+   border-radius: 30px;
+   color: white;
+
+}
+
+
+.navbar{
+    width: 85%;
+    height: 15%; /*navbar css  */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none; /*removes blue underline tag */
+}
+
+.loginbtn:hover{
+    border: 2px solid grey;
+    color: white;
+    background-color:gray;
+    transition: 0.2s; /*changes gray when hovered on */
+    cursor: pointer;
+
+}
+
+
+
+      
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+
+    <header>
+        <div class = "navbar">
+        <a href ="index.html"><h2 class = "logo"><span>Explore Galway</span></h2></a> <!-- explore galway logo in top left of navbar-->
+        <a href = "login.html" class = "loginbtn">Login</a> <!-- login button -->
+        </div>
+
+        
+
+        
+        
+
+    </header>
+
+<section>
+    <div class = "leftbox">
+        <div class="content">
+            <h1>Events in Galway</h1>
+            <p>Welcome to our Events Section! Here you can see our latest events in the Galway Area.</p> <!-- text displayed in left side box on events page-->
+        </div>
+
+
+    </div>
+
+    <div class = "events">
+        <ul>
+            <li>
+                <div class ="time">
+                    <h2>7<br><span>days a week</span></h2><!-- shows when event is on-->
+                </div>
+                <div class = "details"> <!-- displays details of the event-->
+                    <h3>Skeff Bar</h3>
+                    <p>Skeff Bar is open 7 days a week with great drinks and food along with live music every night.
+                        Skeff Bar is one of the most popular pubs to visit in the Galway City area
+                    </p>
+                    <a href = "https://www.theskeff.ie/">Vist their Page</a><!-- link to external website-->
+                </div>
+                <div style="clear:both;"></div>
+
+                
+            </li>
+
+            <li>
+                <div class ="time">
+                    <h2>22<br><span>May</span></h2>
+                </div>
+                <div class = "details">
+                    <h3>Connemara Day Trip</h3>
+                    <p>Delve into the rugged wilderness of Connemara, an Irish county thronged with historic monuments and natural splendor, on a full-day tour from Galway City. Accompanied by a knowledgeable guide.
+
+                        
+                    </p>
+                    <a href = "https://www.viator.com/tours/Galway/Connemara-Day-Trip-from-Galway-Kylemore-Abbey-and-Ross-Errilly-Friary/d5156-5750CONNEMARA">Vist their Page</a>
+                </div>
+                <div style="clear:both;"></div>
+
+                
+            </li>
+
+            <li>
+                <div class ="time">
+                    <h2>7<br><span>days a week</span></h2>
+                </div>
+                <div class = "details">
+                    <h3>Planet Bowling</h3>
+                    <p>Visit the Planet entertainment centre to book a bowling lane with your family and friends. 45 Euro Per hour for a group of 6 people. Located on the headford road.
+                    </p>
+                    <a href = "https://planetgalway.ie/bowling/">Vist their Page</a>
+                </div>
+                <div style="clear:both;"></div>
+
+                
+            </li>
+
+
+            <li>
+                <div class ="time">
+                    <h2>5<br><span>days a week</span></h2>
+                </div>
+                <div class = "details">
+                    <h3>Galway City Museum</h3>
+                    <p>Book a trip the Galway Museum, opened 5 days a week. Closed Tuesday and Wednesday Located at Spanish Arch
+                    </p>
+                    <a href = "https://www.galwaycitymuseum.ie/">Vist their Page</a>
+                </div>
+                <div style="clear:both;"></div>
+
+                
+            </li>
+
+
+
+
+
+           
+        </ul>
+    </div>
+
+
+   
+
+
+    
+
+
+</section> <!-- end of section tag-->
+
+</body>
+</html>
