@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<title>LOGIN PAGE</title>
+
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+
+
+    * body{
+    height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/claddagh-galway-23927267.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+
+font-family: 'Bebas Neue', cursive;
+
+    
+}
+
+                                    /* Design login form */
+.loginForm{
+    width: 320px;
+    height: 420px;
+    background: blue;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+
+}
+
+     /* Image */
+.avatarImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+                                      /*Header*/
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+
+}
+
+                              /* Create login form */
+.loginForm p{
+    margin: 0;
+    padding: 0;
+  
+
+}
+
+    /* Box size  */
+.loginForm input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+    /* Login box text and password */
+.loginForm input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+
+}
+    /* login box submit option */
+.loginForm input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: lightgrey;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+
+}
+
+    /* Changes cursor when over submit option */
+.loginForm input[type ="submit"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+
+}
+    /* */
+.loginForm a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+
+   /* Logo design*/
+.logo{
+   color: gray;
+   font-size: 34px;
+   font-weight: 650;
+   letter-spacing: 2px;
+   text-decoration: none;
+   
+}
+
+header{
+    text-decoration: none;
+}
+
+    /* Logo colour */
+.logo span{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.logo span:hover{
+    color: gray;
+}
+
+    /* Login button */
+.loginbtn{
+   text-transform: capitalize;
+   text-decoration: none;
+   background-color: white;
+   padding: 15px 40px;
+   font-size: 14px;
+   border-radius: 30px;
+   color: blue;
+
+}
+
+    /*Navbar design */
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+    /*Hover over login button */
+.loginbtn:hover{
+    border: 2px solid grey;
+    color: white;
+    background-color:gray;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+
+
+   
+
+</style>
+
+    </head>
+
+
+    <body>
+
+            <!--Links to other pages in header -->
+        <header>
+            <div class = "navbar">
+            <a href ="index.html"><h2 class = "logo"><span>Explore Galway</span></h2></a>
+            <a href = "index.html" class = "loginbtn">HOME</a>
+            </div>
+    
+            
+    
+            
+            
+    
+        </header>
+
+        <!-- html for login form
+            requests user name and password -->
+
+        <div class = "loginForm">
+        <img src="images.png" class = "avatarImg">
+        <h1>Click to Login</h1>
+        <form>
+            <p>Email</p>
+            <input type = "text" name = "" placeholder="Enter email">
+            <p>Password</p>
+            <input type = "password" name ="" placeholder="Enter Password">
+            <input type ="submit" name = "" value = "Log-in">
+            <a href = "#">Forgot password?</a><br>
+            <a href = "#">Create Account</a>
+        </form>
+    </div>
+    </body>
+</html>
