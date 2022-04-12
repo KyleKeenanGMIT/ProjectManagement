@@ -1,0 +1,161 @@
+
+    /* font type */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+
+}
+            /* header style */
+header{
+    height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/claddagh-galway-23927267.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+
+}
+        /* logo style */
+.logo{
+   color: #fff;
+   font-size: 34px;
+   font-weight: 650;
+   letter-spacing: 2px;
+}
+
+
+span{
+    color: white;
+}
+
+        /* button style */
+.loginbtn{
+   text-transform: capitalize;
+   text-decoration: none;
+   background-color: #fff;
+   padding: 15px 40px;
+   font-size: 14px;
+   border-radius: 30px;
+
+}
+
+ /* navbar style */
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* main style */
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+}
+    /* header 1 style */
+.text h1{
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+    /* paragraph style */
+.text p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+
+
+}
+
+    /* button 1 style */
+.btn1{
+    margin: 0px 10px;
+    border: 2px solid #fff;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: blue;
+    border-radius: 30px;
+    background-color: #fff;
+    text-decoration: none;
+
+
+}
+    /* button 1 style when hovering */
+    .btn1:hover{
+    border: 2px solid grey;
+    color: white;
+    background-color: blue;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+    /* login button style when hovering */
+.loginbtn:hover{
+    border: 2px solid grey;
+    color: white;
+    background-color: blue;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+    /* button 2 style */
+.btn2{
+    margin: 0px 10px;
+    border: 2px solid #fff;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: blue;
+    border-radius: 30px;
+    background-color: #fff;
+    text-decoration: none;  
+}
+    /* button 2 style when hovering */
+.btn2:hover{
+
+    border: 2px solid grey;
+    color: white;
+    background-color: blue;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+
+
+
+    /* button 3 style */
+.btn3{
+    margin: 0px 10px;
+    border: 2px solid #fff;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: blue;
+    border-radius: 30px;
+    background-color: #fff;
+    text-decoration: none;  
+}
+    /* button 3 style when hovering */
+.btn3:hover{
+
+    border: 2px solid grey;
+    color: white;
+    background-color: blue;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
