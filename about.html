@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<title>About Us Page</title><!-- about us title.-->
+
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*import font */
+
+
+
+
+
+
+    * body{
+    height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/claddagh-galway-23927267.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+ 
+font-family: 'Bebas Neue', cursive; /*css for whole page layout */
+
+    
+}
+
+
+.logo{
+   color: gray;
+   font-size: 34px; /* changes explore galway logo to gray and sets font variables.*/
+   font-weight: 650;
+   letter-spacing: 2px;
+   text-decoration: none;
+   
+}
+
+header{
+    text-decoration: none; /* no text decoration on logo*/
+}
+
+
+.logo span{
+    color: white; /*navbar is white */
+    text-decoration: none;
+}
+
+
+
+.logo span:hover{
+    color: gray; /*logo turns gray when hovered on */
+}
+
+
+.loginbtn{
+   text-transform: capitalize;
+   text-decoration: none;
+   background-color: white;
+   padding: 15px 40px;
+   font-size: 14px;
+   border-radius: 30px; /* login button css*/
+   color: blue;
+
+}
+
+
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto; /*navbar css */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none; /*removes blue underline from anything with the <a> tag */
+}
+
+.loginbtn:hover{
+    border: 2px solid grey;
+    color: white;
+    background-color:gray; /* logo turns gray when hovered on*/
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+
+body{
+            margin: 0;
+            padding: 0; /*whole website css */
+            text-align: center;
+        }
+
+      
+        
+        section .leftbox{
+            width: 50%;
+            height: 100%; /* creates box with about us section*/
+            float: center;
+            padding: 50px;
+            box-sizing: border-box;
+            margin: auto;
+
+
+        }
+        
+        section .leftbox .content{
+color: #fff;
+background: rgba(0,0,0,.5);
+padding: 100px;
+transition: .3s; /*css for content box */
+
+
+
+        }
+
+
+        section .leftbox .content:hover{
+background: blue; /* turns blue when hovered on */
+
+
+        }
+
+
+        section .leftbox .content h1{
+            margin: 0;
+            padding: 0; /* css for h1 tag*/
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+
+
+        section .leftbox .content p{
+         margin: 10px 0 0; /*css for p tag */
+         padding: 0;
+
+
+
+        }
+
+
+
+</style>
+    </head>
+
+
+    
+    <header>
+        <div class = "navbar">
+        <a href ="index.html"><h2 class = "logo"><span>Explore Galway</span></h2></a><!-- explore galway logo-->
+        <a href = "index.html" class = "loginbtn">HOME</a> <!-- home button-->
+        </div>
+
+        
+
+        
+        
+
+    </header>
+
+
+
+    <body>
+
+
+        <section>
+            <div class = "leftbox">
+                <div class="content">
+                    <h1>About Us</h1>
+                    <p>welcome to our website!</p><br><!-- about us text-->
+                    <p>We are a group of College students from GMIT, Kyle Keenan, Shane Kennedy and Kelly Ebalu. This is our group project for our Project Management Module. We created a website to show off all the things you can do in the Galway Area when visiting.</p>
+
+                </div>
+
+
+
+
+    </body>
+</html>
